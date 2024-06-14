@@ -29,8 +29,8 @@ This project is designed to interface the Quad-PNI RM3100 magnetic sensor with a
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/your_username/Single_PNI_RM3100_STM32F103C8.git
-    cd Single_PNI_RM3100_STM32F103C8
+    git clone https://github.com/your_username/Quad_PNI_RM3100_STM32F103C8_MT25QL01GBBB_Flash.git
+    cd Quad_PNI_RM3100_STM32F103C8_MT25QL01GBBB_Flash
     ```
 
 2. **Open the Project**:
