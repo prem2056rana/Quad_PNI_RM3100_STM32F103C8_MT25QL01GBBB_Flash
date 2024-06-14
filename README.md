@@ -8,7 +8,8 @@ This project is designed to interface the Quad-PNI RM3100 magnetic sensor with a
 - **Magnetic Field Sensing**: Read magnetic field data from the Quad-RM3100 sensor(Four RM3100).
 - **Data Processing**: Process the raw data from the sensor to obtain usable magnetic field values.
 - **Communication**: Uses SPI communication protocols to interface with the sensor and Flash memory.
-- **Microcontroller**: Based on the STM32F103C8, a low-cost, high-performance ARM Cortex-M3 microcontroller.
+- **Microcontroller**: Based on the STM32F103C8.
+- **Flash Memory**: Write in MT25QL01GBBB Flash memory.
 
 ## Getting Started
 
@@ -23,7 +24,7 @@ This project is designed to interface the Quad-PNI RM3100 magnetic sensor with a
 - **Software**:
   - STM32CubeIDE or any compatible IDE
   - STM32CubeMX for configuration
-  - ARM GCC Toolchain
+  -Script Communicator
 
 ### Installation
 
@@ -51,7 +52,7 @@ This project is designed to interface the Quad-PNI RM3100 magnetic sensor with a
 2. **Run the firmware**.
 3. **Observe the output**:
     - Use a serial monitor to read the magnetic field data output.
-    - Connect to the microcontroller via UART to observe data in real-time.
+    - Connect to the microcontroller via UART to observe data in Script Communicator.
 
 ### Documentation
 
